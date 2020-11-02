@@ -22,7 +22,7 @@
 #
 # Script: Clone some Slackware repository to a local source
 #
-# Last update: 14/09/2020
+# Last update: 01/11/2020
 #
 # Tip: Use this script with a "old" local mirror (or ISO) to download less files
 #
@@ -123,7 +123,7 @@ if [ "$contineLftp" == 'n' ]; then
     echo -e "$CYAN\\nJust exiting by user choice$NC\\n"
 else
     if [ "$downloadSource" != 'y' ]; then
-        removeSoure="-x source/ -x patches/source/ -x /pasture/source/"
+        removeSoure="-x source/ -x patches/source/ -x pasture/source/"
         grepRemove=$(echo "$removeSoure" | sed 's/-x //g' | sed 's/ /|/g')
     fi
 
