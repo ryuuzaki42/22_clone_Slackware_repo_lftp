@@ -1,11 +1,11 @@
-## clone_Slackware_repo
-Clone Slackware mirror to a local folder
+## clone_Slackware_repo_lftp
+Clone Slackware mirror to a local folder using lftp
 
 #### Default mirror : ftp://ftp.osuosl.org/.2/slackware/
 
 #### Use:
 ```sh
-$ ./clone_Slackware_repo_JBs.sh
+$ ./clone_Slackware_repo_lftp_JBs.sh
 ```
 
 #### You can chose:
