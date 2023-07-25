@@ -3,6 +3,9 @@ Clone Slackware mirror to a local folder using lftp
 
 #### Default mirror : ftp://ftp.osuosl.org/.2/slackware
 
+### Alternative - Use rsync
+https://github.com/ryuuzaki42/12_clone_Slackware_repo_rsync
+
 #### Use:
 ```sh
 $ ./clone_Slackware_repo_lftp_JBs.sh
